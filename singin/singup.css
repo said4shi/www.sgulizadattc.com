@@ -1,0 +1,89 @@
+body{
+    background-image:url(https://wallpaperaccess.com/full/1526716.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+div #singin{
+    font-size:40px;
+    color:rgb(255, 166, 0);
+    background-color: brown;
+    padding-left:10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+#namepart label{
+    color:brown;
+    background-color: orange;
+    border-radius:5px;
+}
+#namepart input{
+    background-color:black;
+    color:rgb(190, 131, 20);;
+    border-radius:10px;
+    margin:10px;
+    padding: 5px;
+    border:1px solid orange;
+}
+#selectpart label{
+    color:brown;
+    background-color: orange;
+    border-radius:5px;
+}
+#date{
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+}
+#selectpart select{
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+#selectpart #university{
+    padding: 0.2em;
+}
+#selectpart input,textarea,select,::placeholder{
+    color: rgb(190, 131, 20);
+    background-color: black;
+    margin-bottom:5px;
+}
+#degree{
+    margin-top: 5px;
+    padding-left:10px;
+    padding:5px;
+}
+textarea{
+    border:1px solid orange;
+    border-radius: 10px;
+}
+#emailpart label{
+    color:brown;
+    border-radius: 5px;
+    background-color:orange;
+}
+#emailpart input{
+    margin:10px;
+    padding:5px;
+    border: 1px solid orange;
+    border-radius:5px;
+    background-color: black;
+    color:rgb(190, 131, 20);
+}
+label{
+    font-size: 18px;
+}
+#emailpart label{
+    font-size: 20px;
+}
+button{
+    background-color: brown;
+    color:orange;
+    border-radius: 15px;
+    width: 100px;
+    height:30px;
+}
+button:hover{
+    background-color: orange;
+    color: brown;
+    cursor: pointer;
+}

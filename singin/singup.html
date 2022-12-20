@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sing up</title>
+        <link rel="stylesheet" href="./singup.css">
+    </head>
+    <body><div>
+        <form method="POST">
+            <label id="singin"><b>Sing up</b></label>
+            <div id="namepart">
+                <label for="name" ><b>Name</b></label>
+                <br>
+                <input id="name" type="text" >
+                <br>
+                <label for="surname"><b>Surname</b></label>
+                <br>
+                <input id="surname" type="text">
+                <br>
+                <label for="username"><b>Username</b></label>
+                <br>
+                <input id="username" type="text">
+                <br>
+            </div>
+            <div id="selectpart">
+                <label for="date"><b>Birth date</b></label>
+            <br>
+            <input type="date" id="date">
+            <br>
+            <div id="gender">
+            <label><b>Gender</b></label>
+            <br>
+            <br>
+            <label for="male">Male</label>
+            <input id="male" type="radio" name="gender" value="male" >
+            <label for="female" >Female</label>
+            <input type="radio" id="female" name="gender" value="female" >
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="others">    
+            </div>
+            <br>
+            <label id="university"for="degree"><b>University</b></label>
+            <br>
+            <select name="degree" id="degree">
+                <option value="BEU">BEU</option>
+                <option value="BSU">BSU</option>
+                <option value="BBU">BBU</option>
+                <option value="UNEC">UNEC</option>
+                <option value="AMU">AMU</option>
+                <option value="ATU">ATU</option>
+                <option value="LSU">LSU</option>
+                <option value="GSU">GSU</option>
+                <option value="Other">OTHER</option>
+            </select>
+            <br>
+            <label for="message"><b>About yourself</b></label>
+            <br>
+            <textarea  name="message" id="message" placeholder="Your message"> </textarea>
+            </div>
+            <br>
+            <div id="emailpart">
+            <label for="email"><b>Email</b></label>
+            <br>
+            <input id="email" type="email">
+            <br>
+            <label for="password"><b>Password</b></label>
+            <br>
+            <input type="password" id="password">
+            <br>
+            <label for="confirmpassword"><b>Confirm password</b></label>
+            <br>
+            <input type="password" id="confirmpassword">
+            <br>
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    </body>
+</html>

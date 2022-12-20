@@ -1,0 +1,84 @@
+html, body{
+	background-color: lightblue;
+}
+
+.header{
+	top: 0px;
+	float: right;
+	margin-top: -8px;
+}
+
+.header ul li{
+	display: inline-block;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 4px;
+	list-style-type: none;
+	background-color: gray;
+	cursor: pointer;
+}
+
+.header li a:hover{
+	color: #000;
+} 
+
+.header a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.body{
+	width: 100%;
+}
+
+.footer{
+	position: absolute;
+	text-align: center;
+	left: 45%;
+	bottom: 0px;
+}
+.footer p{
+	color: gray;
+	font-size:14px;
+}
+
+#login_div{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	left: 34%;
+	width: 60%;
+}
+
+#login_div label{
+	font-size: 20px;
+}
+
+fieldset{
+	width: 50%;
+}
+
+
+
+#email, #password, .btn{
+	padding: 10px;
+	margin: 5px;
+	border: 2px solid #ff0;
+	border-radius: 5px;
+	width: 80%;
+}
+.register{
+	text-decoration: none;
+	float: right;
+}
+.btn, .lblsave{
+	cursor: pointer; 
+}
+.lblsave, #saveme{
+	float: left;
+}
+
+.lblsave{
+	font-size: 16px !important;
+}
